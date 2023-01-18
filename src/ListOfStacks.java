@@ -16,7 +16,7 @@ import java.util.List;
         }
 
         public ListOfStacks() {
-            File folder = new File("/Users/williamhall/Desktop/JavaP");
+            File folder = new File("/Users/williamhall/Desktop/Flash_Cards/CardStacks");
             File[] listOfFiles = folder.listFiles();
             this.fileList = List.of(listOfFiles);
         }

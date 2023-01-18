@@ -4,9 +4,12 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("This is Flashcards. Options: 1. list stacks 2. Create new stack 3. Erase stack 4. open stack");
         ListOfStacks lof = new ListOfStacks();
+
         while (true){
+
+            System.out.println("This is Flashcards. Options: 1. list stacks 2. Create new stack 3. Erase stack 4. open stack");
+
             String userSelection = scanner.nextLine();
             if(userSelection.equals("1")){
                 System.out.println(lof.getFileList());
